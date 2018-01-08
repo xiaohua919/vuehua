@@ -31,3 +31,27 @@ Git必须知道当前版本是哪个版本，在Git中，用HEAD表示当前版本，也就是最新的提交3628
 git reset --hard HARD^
 
 git reset --hard 版本号
+
+
+//回退文件版本
+git  checkout  -- 文件名
+
+//删除文件
+//git rm 文件名
+
+//添加远程库 origin远程仓库的名字  项目地址
+git remote add origin https://github.com/xiaohua919/vuehua.git
+
+//本地内容推送到远程主目录
+git push -u origin  master
+
+
+//远程库下载到本本地
+git clone   地址名
+
+//创建分支 git checkout命令加上-b参数表示创建并切换，相当于以下两条命令：
+git checkout -b dev
+
+//查看分支
+git brance
+

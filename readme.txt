@@ -71,3 +71,13 @@ git branch -d 分支名
 如果要强制禁用Fast forward模式，Git就会在merge时生成一个新的commit，这样，从分支历史上就可以看出分支信息。
 
 下面我们实战一下--no-ff方式的git merge：
+
+git merge --no-ff -m "merge with no-ff" dev
+
+//查看分支合并日志
+git log --graph --pretty=oneline --abbrev-commit
+
+Git还提供了一个stash功能，可以把当前工作现场“储藏”起来，等以后恢复现场后继续工作
+git stash
+
+

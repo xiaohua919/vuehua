@@ -53,5 +53,5 @@ git clone   地址名
 git checkout -b dev
 
 //查看分支
-git branch
+git brance
 
